@@ -15,6 +15,17 @@ c++对象模型和this指针
 this指针 指向被调用的成员函数所属的对象
 当形参和成员变量同名时，用this指针区分
 
+空指针调用成员函数
+
+const修饰成员函数
+常函数
+    成员函数加const后称为常函数
+    常函数不能修改成员属性
+    成员属性声明是加关键字mutable后，可以在常函数中修改
+常对象
+    声明对象前加const为常对象
+    常对象只能调用常函数
+    
 */
 
 #include <iostream>
@@ -25,7 +36,15 @@ class person
 private:
     /* data */
 public:
-    int age;
+    void showClassName()
+    {
+        cout << "this is person class" << endl;
+    }
+    void showPersonAge()
+    {
+        cout << "age is" << this->age << endl;
+    }
+    int age = 1;
     person(int age)
     {
         // this 指针指向 被调用的成员函数 所属的对象
@@ -67,9 +86,17 @@ void test02()
     cout << sizeof(p) << endl;
 }
 
+// 空指针调用成员函数
+void test03()
+{
+    person *p = NULL;
+    p->showClassName();
+    p->showPersonAge(); // 没有age数值返回，因为传入的指针为NULL
+}
+
 int main()
 {
-    test01();
+    test03();
 
     return 0;
 }
