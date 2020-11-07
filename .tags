@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/6222334c/
+0	.vscode/c_cpp_properties.json	/^                "${workspaceFolder}\/**"$/;"	s	array:configurations.0.includePath
+0	.vscode/c_cpp_properties.json	/^                "_DEBUG",$/;"	s	array:configurations.0.defines
+0	.vscode/c_cpp_properties.json	/^        {$/;"	o	array:configurations
+1	.vscode/c_cpp_properties.json	/^                "UNICODE",$/;"	s	array:configurations.0.defines
+2	.vscode/c_cpp_properties.json	/^                "_UNICODE"$/;"	s	array:configurations.0.defines
+Circle	day8/class.cpp	/^class Circle$/;"	c	file:
+Preson	day8/class.cpp	/^class Preson$/;"	c	file:
+add_person	day5/txl.cpp	/^void add_person()$/;"	f	typeref:typename:void
+adder	day1/day1.cpp	/^int adder(int a, int b)$/;"	f	typeref:typename:int
+adder	day2/day2.cpp	/^int adder(int a, int b)$/;"	f	typeref:typename:int
+adderss	day5/txl.cpp	/^    string adderss;$/;"	m	struct:contact	typeref:typename:string	file:
+age	day4/struct.cpp	/^        int age;$/;"	m	struct:main::student	typeref:typename:int	file:
+age	day4/struct.cpp	/^        int age;$/;"	m	struct:main::teacher	typeref:typename:int	file:
+age	day4/struct_example_2.cpp	/^    int age;$/;"	m	struct:hero	typeref:typename:int	file:
+age	day4/struct_fun.cpp	/^    int age;$/;"	m	struct:student	typeref:typename:int	file:
+age	day5/txl.cpp	/^    string age;$/;"	m	struct:contact	typeref:typename:string	file:
+assign	day4/struct_example_1.cpp	/^void assign(teacher *tea)$/;"	f	typeref:typename:void
+cStandard	.vscode/c_cpp_properties.json	/^            "cStandard": "c17",$/;"	s	object:configurations.0
+cal_ZC	day8/class.cpp	/^    double cal_ZC()$/;"	f	class:Circle	typeref:typename:double	file:
+car	day8/class.cpp	/^    string car;$/;"	m	class:Preson	typeref:typename:string	file:
+change_person	day5/txl.cpp	/^void change_person()$/;"	f	typeref:typename:void
+circle	day8/class_case_2.cpp	/^class circle$/;"	c	file:
+clear_person	day5/txl.cpp	/^void clear_person()$/;"	f	typeref:typename:void
+cmath	.vscode/settings.json	/^        "cmath": "cpp"$/;"	s	object:files.associations
+compilerPath	.vscode/c_cpp_properties.json	/^            "compilerPath": "C:\/software\/mingw\/bin\/g++.exe"$/;"	s	object:configurations.0
+configurations	.vscode/c_cpp_properties.json	/^    "configurations": [$/;"	a
+contact	day5/txl.cpp	/^struct contact$/;"	s	file:
+contact_arr	day5/txl.cpp	/^contact contact_arr[contact_num] = {}; \/\/ 联系人数组$/;"	v	typeref:typename:contact[]
+contact_num	day5/txl.cpp	/^const int contact_num = 1000; \/\/ 总联系人数量$/;"	v	typeref:typename:const int
+cppStandard	.vscode/c_cpp_properties.json	/^            "cppStandard": "c++17",$/;"	s	object:configurations.0
+cube	day8/class_case_1.cpp	/^class cube$/;"	c	file:
+cube_compare	day8/class_case_1.cpp	/^bool cube_compare(cube &c1, cube &c2)$/;"	f	typeref:typename:bool
+defines	.vscode/c_cpp_properties.json	/^            "defines": [$/;"	a	object:configurations.0
+del_person	day5/txl.cpp	/^void del_person()$/;"	f	typeref:typename:void
+display_init	day5/txl.cpp	/^void display_init()$/;"	f	typeref:typename:void
+display_person	day5/txl.cpp	/^void display_person()$/;"	f	typeref:typename:void
+files.associations	.vscode/settings.json	/^    "files.associations": {$/;"	o
+find_person	day5/txl.cpp	/^void find_person()$/;"	f	typeref:typename:void
+func	day8/class.cpp	/^    void func()$/;"	f	class:Preson	typeref:typename:void	file:
+get_age	day8/class.cpp	/^    int get_age()$/;"	f	class:per	typeref:typename:int	file:
+get_area	day8/class_case_1.cpp	/^    int get_area()$/;"	f	class:cube	typeref:typename:int	file:
+get_center	day8/class_case_2.cpp	/^    point get_center()$/;"	f	class:circle	typeref:typename:point	file:
+get_name	day8/class.cpp	/^    string get_name()$/;"	f	class:per	typeref:typename:string	file:
+get_r	day8/class_case_2.cpp	/^    int get_r()$/;"	f	class:circle	typeref:typename:int	file:
+get_volume	day8/class_case_1.cpp	/^    int get_volume()$/;"	f	class:cube	typeref:typename:int	file:
+get_x	day8/class_case_2.cpp	/^    int get_x()$/;"	f	class:point	typeref:typename:int	file:
+get_y	day8/class_case_2.cpp	/^    int get_y()$/;"	f	class:point	typeref:typename:int	file:
+grade	day4/struct.cpp	/^        int grade;$/;"	m	struct:main::student	typeref:typename:int	file:
+grade	day4/struct_fun.cpp	/^    int grade;$/;"	m	struct:student	typeref:typename:int	file:
+hero	day4/struct_example_2.cpp	/^struct hero$/;"	s	file:
+id	day4/struct.cpp	/^        int id;$/;"	m	struct:main::teacher	typeref:typename:int	file:
+id	day8/class.cpp	/^    string id;$/;"	m	class:student	typeref:typename:string	file:
+includePath	.vscode/c_cpp_properties.json	/^            "includePath": [$/;"	a	object:configurations.0
+intelliSenseMode	.vscode/c_cpp_properties.json	/^            "intelliSenseMode": "gcc-x64",$/;"	s	object:configurations.0
+iostream	.vscode/settings.json	/^        "iostream": "cpp",$/;"	s	object:files.associations
+m_age	day8/class.cpp	/^    int m_age;$/;"	m	class:per	typeref:typename:int	file:
+m_age	day8/class_init.cpp	/^    int m_age;$/;"	m	class:person	typeref:typename:int	file:
+m_center	day8/class_case_2.cpp	/^    point m_center;$/;"	m	class:circle	typeref:typename:point	file:
+m_cube_compare	day8/class_case_1.cpp	/^    int m_cube_compare(cube &c)$/;"	f	class:cube	typeref:typename:int	file:
+m_h	day8/class_case_1.cpp	/^    int m_h;$/;"	m	class:cube	typeref:typename:int	file:
+m_height	day8/class_init.cpp	/^    int *m_height;$/;"	m	class:person	typeref:typename:int *	file:
+m_l	day8/class_case_1.cpp	/^    int m_l;$/;"	m	class:cube	typeref:typename:int	file:
+m_lover	day8/class.cpp	/^    string m_lover;$/;"	m	class:per	typeref:typename:string	file:
+m_name	day8/class.cpp	/^    string m_name;$/;"	m	class:per	typeref:typename:string	file:
+m_name	day8/class_as_classmember.cpp	/^	string m_name;$/;"	m	class:person	typeref:typename:string	file:
+m_name	day8/class_init.cpp	/^    string m_name;$/;"	m	class:person	typeref:typename:string	file:
+m_phone	day8/class_as_classmember.cpp	/^	phone m_phone;$/;"	m	class:person	typeref:typename:phone	file:
+m_pname	day8/class_as_classmember.cpp	/^	string m_pname;$/;"	m	class:phone	typeref:typename:string	file:
+m_r	day8/class.cpp	/^    int m_r;$/;"	m	class:Circle	typeref:typename:int	file:
+m_r	day8/class_case_2.cpp	/^    int m_r;$/;"	m	class:circle	typeref:typename:int	file:
+m_w	day8/class_case_1.cpp	/^    int m_w;$/;"	m	class:cube	typeref:typename:int	file:
+m_x	day8/class_case_2.cpp	/^    int m_x;$/;"	m	class:point	typeref:typename:int	file:
+m_y	day8/class_case_2.cpp	/^    int m_y;$/;"	m	class:point	typeref:typename:int	file:
+main	day1/day1.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day2/day2.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day3/pointer.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day3/pointer_and_arry.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day3/pointer_and_function.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day3/pointer_arry_function.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day4/struct.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day4/struct_example_1.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day4/struct_example_2.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day4/struct_fun.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day5/txl.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day6/new.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day8/class.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day8/class_as_classmember.cpp	/^int main(int argc, char const *argv[])$/;"	f	typeref:typename:int
+main	day8/class_case_1.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day8/class_case_2.cpp	/^int main()$/;"	f	typeref:typename:int
+main	day8/class_init.cpp	/^int main()$/;"	f	typeref:typename:int
+maopao	day3/pointer_arry_function.cpp	/^void maopao(int *p, int len)$/;"	f	typeref:typename:void
+name	.vscode/c_cpp_properties.json	/^            "name": "Win32",$/;"	s	object:configurations.0
+name	day4/struct.cpp	/^        string name;$/;"	m	struct:main::student	typeref:typename:string	file:
+name	day4/struct.cpp	/^        string name;$/;"	m	struct:main::teacher	typeref:typename:string	file:
+name	day4/struct_example_1.cpp	/^    string name;$/;"	m	struct:student	typeref:typename:string	file:
+name	day4/struct_example_1.cpp	/^    string name;$/;"	m	struct:teacher	typeref:typename:string	file:
+name	day4/struct_example_2.cpp	/^    string name;$/;"	m	struct:hero	typeref:typename:string	file:
+name	day4/struct_fun.cpp	/^    string name;$/;"	m	struct:student	typeref:typename:string	file:
+name	day5/txl.cpp	/^    string name;  $/;"	m	struct:contact	typeref:typename:string	file:
+name	day8/class.cpp	/^    string name; \/\/ 姓名$/;"	m	class:student	typeref:typename:string	file:
+name	day8/class.cpp	/^    string name;$/;"	m	class:Preson	typeref:typename:string	file:
+password	day8/class.cpp	/^    int password;$/;"	m	class:Preson	typeref:typename:int	file:
+per	day8/class.cpp	/^class per$/;"	c	file:
+person	day8/class_as_classmember.cpp	/^	person(string name, string pname): m_name(name), m_phone(pname)$/;"	f	class:person	file:
+person	day8/class_as_classmember.cpp	/^class person$/;"	c	file:
+person	day8/class_init.cpp	/^    person(\/* args *\/) : m_age(10), m_height(new int(160))$/;"	f	class:person	file:
+person	day8/class_init.cpp	/^    person(const person &p)$/;"	f	class:person	file:
+person	day8/class_init.cpp	/^    person(int a, int height) : m_age(a), m_height(new int(height))$/;"	f	class:person	file:
+person	day8/class_init.cpp	/^class person$/;"	c	file:
+phone	day8/class_as_classmember.cpp	/^	phone(string pname)$/;"	f	class:phone	file:
+phone	day8/class_as_classmember.cpp	/^class phone$/;"	c	file:
+phone_number	day5/txl.cpp	/^    string phone_number;$/;"	m	struct:contact	typeref:typename:string	file:
+pi	day8/class.cpp	/^const float pi = 3.14;$/;"	v	typeref:typename:const float
+point	day8/class_case_2.cpp	/^class point$/;"	c	file:
+print_studen	day4/struct_fun.cpp	/^void print_studen(const student *stu)\/\/ 加const后函数内部不能修改结构体的值，防/;"	f	typeref:typename:void
+print_teacher_arry	day4/struct_example_1.cpp	/^void print_teacher_arry(const teacher *tea)$/;"	f	typeref:typename:void
+s1	day4/struct.cpp	/^        student s1;$/;"	m	struct:main::teacher	typeref:typename:student	file:
+score	day4/struct_example_1.cpp	/^    int score;$/;"	m	struct:student	typeref:typename:int	file:
+set_age	day8/class.cpp	/^    void set_age(int age)$/;"	f	class:per	typeref:typename:void	file:
+set_center	day8/class_case_2.cpp	/^    void set_center(point p)$/;"	f	class:circle	typeref:typename:void	file:
+set_l_w_h	day8/class_case_1.cpp	/^    void set_l_w_h(int l, int w, int h)$/;"	f	class:cube	typeref:typename:void	file:
+set_lover	day8/class.cpp	/^    void set_lover(string lover)$/;"	f	class:per	typeref:typename:void	file:
+set_name	day8/class.cpp	/^    void set_name(string name)$/;"	f	class:per	typeref:typename:void	file:
+set_r	day8/class_case_2.cpp	/^    void set_r(int r)$/;"	f	class:circle	typeref:typename:void	file:
+set_x_y	day8/class_case_2.cpp	/^    void set_x_y(int x, int y)$/;"	f	class:point	typeref:typename:void	file:
+sex	day4/struct_example_2.cpp	/^    string sex;$/;"	m	struct:hero	typeref:typename:string	file:
+sex	day5/txl.cpp	/^    string sex;$/;"	m	struct:contact	typeref:typename:string	file:
+show_mes	day8/class.cpp	/^    void show_mes()$/;"	f	class:student	typeref:typename:void	file:
+stu_arr	day4/struct_example_1.cpp	/^    student stu_arr[5];$/;"	m	struct:teacher	typeref:typename:student[5]	file:
+student	day4/struct.cpp	/^    struct student$/;"	s	function:main	file:
+student	day4/struct_example_1.cpp	/^struct student$/;"	s	file:
+student	day4/struct_fun.cpp	/^struct student$/;"	s	file:
+student	day8/class.cpp	/^class student$/;"	c	file:
+sw	day3/pointer_and_function.cpp	/^void sw(int * a, int * b)$/;"	f	typeref:typename:void
+swap	day2/swap.cpp	/^void swap(int a, int b)$/;"	f	typeref:typename:void
+swap	day6/new.cpp	/^void swap(int &a, int &b)$/;"	f	typeref:typename:void
+teacher	day4/struct.cpp	/^    struct teacher$/;"	s	function:main	file:
+teacher	day4/struct_example_1.cpp	/^struct teacher$/;"	s	file:
+test	day8/class_as_classmember.cpp	/^void test()$/;"	f	typeref:typename:void
+test01	day6/new.cpp	/^void test01()$/;"	f	typeref:typename:void
+test01	day8/class_init.cpp	/^void test01()$/;"	f	typeref:typename:void
+test02	day6/new.cpp	/^void test02()$/;"	f	typeref:typename:void
+version	.vscode/c_cpp_properties.json	/^    "version": 4$/;"	n
+week	day1/day1.cpp	/^#define week /;"	d	file:
+wir_pointer	day5/txl.cpp	/^int wir_pointer = 0; \/\/ 通讯录中已存储联系人的数量$/;"	v	typeref:typename:int
+~person	day8/class_as_classmember.cpp	/^	~person() {}$/;"	f	class:person	file:
+~person	day8/class_init.cpp	/^    ~person()$/;"	f	class:person	file:
+~phone	day8/class_as_classmember.cpp	/^	~phone() {}$/;"	f	class:phone	file:
