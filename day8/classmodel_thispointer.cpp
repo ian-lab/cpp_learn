@@ -25,7 +25,7 @@ const修饰成员函数
 常对象
     声明对象前加const为常对象
     常对象只能调用常函数
-    
+
 */
 
 #include <iostream>
@@ -36,6 +36,18 @@ class person
 private:
     /* data */
 public:
+    // 常函数
+    // this指针的本质是指针常量  指针指向不可以修改
+    // 在成员函数后面加const，修饰的是this指向，指针指向的值也不可以修改
+    // const person * const this
+    void showPerson() const
+    {
+        this->m_B = 100;
+        // age = 100;
+    }
+    int m_A;
+    mutable int m_B; // 特殊变量 可以在常函数中修改
+
     void showClassName()
     {
         cout << "this is person class" << endl;
@@ -92,6 +104,16 @@ void test03()
     person *p = NULL;
     p->showClassName();
     p->showPersonAge(); // 没有age数值返回，因为传入的指针为NULL
+}
+
+// 常对象
+void test04()
+{
+    const person p1(10); //常对象
+    // p1.m_A = 100; // 不能修改
+    p1.m_B = 100;    // 可以修改特殊变量
+    p1.showPerson(); // 可以调用常函数
+    // p1.func(); // 常对象不能调用普通成员函数
 }
 
 int main()
